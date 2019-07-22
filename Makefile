@@ -28,3 +28,6 @@ run:
 	docker run -v $(shell pwd):/build -w "/build" $(DOCKERIMAGE) make runlocal
 
 full: build run
+
+my_computer_very_hot_oh_god_stop:
+	docker run -v $(shell pwd):/build -w "/build" docker make my_computer_very_hot_oh_god_stop
